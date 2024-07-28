@@ -25,6 +25,7 @@ def help(update, context):
   ''')
     
 def content(update, context):
+    
     update.message.reply_text('Message')
 
 def contact(update, context):
